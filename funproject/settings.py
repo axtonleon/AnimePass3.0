@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--5v((^3#8g$*_4l7-*hm62#l&5@z_@638nhv4c!@3k3rrimqer
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["web-production-dc82.up.railway.app"]
+ALLOWED_HOSTS = ["pf6gyft4s7.execute-api.us-east-2.amazonaws.com/"]
 
 
 # Application definition
@@ -112,7 +112,7 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-CSRF_TRUSTED_ORIGINS = ['https://web-production-dc82.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://pf6gyft4s7.execute-api.us-east-2.amazonaws.com/']
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
